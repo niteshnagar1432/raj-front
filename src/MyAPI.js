@@ -2,7 +2,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 
 // const baseUrl = 'http://localhost:8080/api'
-const baseUrl = 'https://syksa-backend.vercel.app/'
+const baseUrl = 'https://raj-back.vercel.app/api'
 
 export const MyAPI = {
   GET: async (url, token = null) => {
